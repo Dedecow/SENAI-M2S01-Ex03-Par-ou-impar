@@ -9,11 +9,12 @@ public class Main {
         int numero = sc.nextInt();
 
         if (numero % 2 == 0) {
-            System.out.println(" o número digitado " +numero+ " é um número par.");
+            System.out.println(" Parabéns! O número digitado " +numero+ " é um número par.");
         }else {
-            System.out.println("Esse número não é par, tente de novo.");
-            numero = sc.nextInt();
+            System.out.println("Esse número não é par.");
+
         }
+        System.out.println( "Fim de programa. ");
         sc.close();
     }
 
